@@ -1,0 +1,17 @@
+{
+    "name": "marshung/library-example",
+    "description": "Other people's library usage examples - according to my needs",
+    "homepage": "https://github.com/marshung24/library-example",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mars Hung",
+            "email": "tfaredxj@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "marshung\\library-example\\": "src" }
+    },
+    "minimum-stability": "stable"
+}
